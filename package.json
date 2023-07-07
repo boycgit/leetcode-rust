@@ -1,5 +1,6 @@
 {
 	"dependencies": {
-		"generate-template-files": "^3.2.1"
+		"generate-template-files": "^3.2.1",
+		"handlebars": "^4.7.7"
 	}
 }

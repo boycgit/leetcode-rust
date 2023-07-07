@@ -1,0 +1,12 @@
+fn main() {
+    println!("Hello, world!");
+}
+
+#[cfg(test)]
+mod tests;
+
+{{#each files}}
+#[path="./{{this}}.rs"]
+mod {{this}};
+
+{{/each}}

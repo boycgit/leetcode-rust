@@ -1,3 +1,7 @@
+// 引入 fs 和 path 模块
+const fs = require('fs');
+const path = require('path');
+
 // 正则匹配获取源文件信息
 const getInfoFromFile = (rustCode) => {
   // 定义一个正则表达式，用来匹配函数名、函数列表、函数返回值信息
@@ -36,6 +40,28 @@ const getInfoFromFile = (rustCode) => {
   return infos;
 };
 
+const getFileName = (fileName) => {
+  // 获取文件的扩展名
+  const ext = path.extname(fileName);
+  // 返回不带扩展名的文件名
+  return path.basename(fileName, ext);
+}
+
+// 获取目标目录下文件名列表（排除文件夹情况、不需要扩展名）
+const getFileNameList = (dirPath) => {
+  const fileList = fs.readdirSync(dirPath);
+  return fileList
+    .filter((item) => {
+      const stat = fs.statSync(path.join(dirPath, item));
+      return stat.isFile();
+    })
+    .map((file) => {
+      return getFileName(file);
+    });
+};
+
 module.exports = {
   getInfoFromFile,
+  getFileNameList,
+  getFileName,
 };
