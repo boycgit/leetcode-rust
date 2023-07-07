@@ -11,8 +11,9 @@
 
 ### 根据文件名一键配置测试文件
 执行以下命令：
-```javascript
-node scripts/generate.js [文件名]
+```shell
+yarn gen [文件名]
+# 等效于 node scripts/generate.js [文件名]
 ```
 
 会自动生成测试文件、更新入口文件信息
@@ -21,8 +22,9 @@ node scripts/generate.js [文件名]
 
 ### 重塑入口文件
 执行以下命令：
-```javascript
-node scripts/reshape.js
+```shell
+yarn reshape
+# 等效于 node scripts/reshape.js
 ```
 会根据 src 目录下已经有的测试文件重新生成 main.rs 和 test.rs 文件。
 > 之所以有这个命令，是因为有可能多次执行上述的 `node scripts/generate.js` 命令导致入口文件变得混乱，使用该命令可以清理恢复

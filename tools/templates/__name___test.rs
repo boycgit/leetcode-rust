@@ -1,6 +1,6 @@
 use crate::__name__;
 
-fn test_target(__argsWithType__, output: i32) {
+fn test_target(__argsWithType__, output: __returnType__) {
     assert_eq!(
         __name__::Solution::__fnName__(__argsList__),
         output

@@ -3,6 +3,10 @@ const fs = require('fs');
 
 const config = require('../package.json');
 const path = require('path');
+const srcPath = path.join(__dirname, '../src');
+const toolsPath = path.join(__dirname, '../tools');
+
+
 const { getInfoFromFile } = require('../tools/utils');
 
 // 获取命令行参数
@@ -18,15 +22,15 @@ console.log(`尝试从 ${curFileName}.rs 文件中获取信息`);
 
 // 同步读取目标文件并提取信息
 const sourceFileStr = fs.readFileSync(
-  path.join(__dirname, '../src', `${curFileName}.rs`),
+  path.join(srcPath, `${curFileName}.rs`),
   'utf8'
 );
 const sourceFileInfo = getInfoFromFile(sourceFileStr);
 
 
 // 以 append 模式打开需要改写的文件
-const mainStream = fs.createWriteStream('../src/main.rs', { flags: 'a' });
-const testStream = fs.createWriteStream('../src/tests.rs', { flags: 'a' });
+const mainStream = fs.createWriteStream(path.join( srcPath, 'main.rs'), { flags: 'a' });
+const testStream = fs.createWriteStream(path.join( srcPath, 'tests.rs'), { flags: 'a' });
 
 
 // 定义一个功能函数，将新增模块注册到入口文件中
@@ -44,16 +48,18 @@ generateTemplateFilesBatch([
     option: '创建测试文件',
     defaultCase: '(noCase)',
     entry: {
-      folderPath: '../tools/templates/',
+      folderPath: path.join(toolsPath, 'templates/'),
     },
     dynamicReplacers: [
       { slotValue: curFileName, slot: '__name__' },
       { slotValue: sourceFileInfo.argsWithType, slot: '__argsWithType__' },
       { slotValue: sourceFileInfo.functionName, slot: '__fnName__' },
       { slotValue: sourceFileInfo.args.map(o=>o.name).join(', '), slot: '__argsList__' },
+      { slotValue: sourceFileInfo.returnTypeStr, slot: '__returnTypeStr__' },
+      { slotValue: sourceFileInfo.returnType, slot: '__returnType__' },
     ],
     output: {
-      path: '../src/tests',
+      path: path.join(srcPath, 'tests'),
       pathAndFileNameDefaultCase: '(noCase)',
       overwrite: true,
     },

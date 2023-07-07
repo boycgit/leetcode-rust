@@ -1,4 +1,8 @@
 {
+	"scripts": {
+		"gen": "node scripts/generate.js",
+		"reshape": "node scripts/reshape.js"
+	},
 	"dependencies": {
 		"generate-template-files": "^3.2.1",
 		"handlebars": "^4.7.7"
