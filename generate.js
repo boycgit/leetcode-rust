@@ -3,8 +3,9 @@ const fs = require('fs');
 
 const config = require('./package.json');
 
-const mainStream = fs.createWriteStream('./src/main.rs');
-const testStream = fs.createWriteStream('./src/tests.rs');
+// 以 append 模式打开
+const mainStream = fs.createWriteStream('./src/main.rs', { flags: 'a' });
+const testStream = fs.createWriteStream('./src/tests.rs', { flags: 'a' });
 
 // 定义一个功能函数，将新增模块注册到入口文件中
 function appendToFile(filename) {
