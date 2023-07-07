@@ -1,8 +1,8 @@
 use crate::__name__;
 
-fn test_target(nums: Vec<i32>, target: i32, output: i32) {
+fn test_target(__argsWithType__, output: i32) {
     assert_eq!(
-        __name__::Solution::search(nums, target),
+        __name__::Solution::__fnName__(__argsList__),
         output
     )
 }
