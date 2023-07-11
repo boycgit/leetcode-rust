@@ -10,3 +10,6 @@ mod 移除元素_27_test;
 
 #[path="./tests/长度最小的子数组_209_test.rs"]
 mod 长度最小的子数组_209_test;
+
+#[path="./tests/螺旋矩阵_ii_59_test.rs"]
+mod 螺旋矩阵_ii_59_test;
