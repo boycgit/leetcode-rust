@@ -5,7 +5,7 @@ const path = require('path');
 // 正则匹配获取源文件信息
 const getInfoFromFile = (rustCode) => {
   // 定义一个正则表达式，用来匹配函数名、函数列表、函数返回值信息
-  const regex = /fn\s+(\w+)\s*\(([^)]*)\)\s*(->\s*(.+))?\{/;
+  const regex = /Solution\s+\{(\s|\w)+ pub\s+fn\s+(\w+)\s*\(([^)]*)\)\s*(->\s*(.+))?\{/;
 
   // 使用正则表达式的 exec 方法来执行匹配，并且获取匹配结果
   const result = regex.exec(rustCode);
