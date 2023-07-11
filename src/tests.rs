@@ -16,3 +16,6 @@ mod 螺旋矩阵_ii_59_test;
 
 #[path="./tests/移除链表元素_203_test.rs"]
 mod 移除链表元素_203_test;
+
+#[path="./tests/反转链表_206_test.rs"]
+mod 反转链表_206_test;

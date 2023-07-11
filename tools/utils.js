@@ -17,10 +17,10 @@ const getInfoFromFile = (rustCode) => {
     infos.source = result[0];
 
     // result[1] 是第一个捕获组，即函数名
-    infos.functionName = result[1];
+    infos.functionName = result[2];
 
     // result[2] 是第二个捕获组，即函数入参列表
-    infos.argsWithType = result[2]?.trim();
+    infos.argsWithType = result[3]?.trim();
     if (infos.argsWithType) {
       const argList = infos.argsWithType.split(',');
       infos.args = argList.map((item) => {
@@ -33,8 +33,8 @@ const getInfoFromFile = (rustCode) => {
     }
 
     // result[3] 是第三个捕获组，即函数返回值信息（有可能没有）
-    infos.returnTypeStr = result[3] || "";
-    infos.returnType = result[4] || "";
+    infos.returnTypeStr = result[4] || "";
+    infos.returnType = result[5] || "";
   }
 
   return infos;

@@ -1,6 +1,6 @@
 #[allow(dead_code)]
 pub struct Solution {}
-use crate::utils::linked_list::{to_list, ListNode, Link};
+use crate::utils::linked_list::{ListNode, Link};
 
 
 /*
