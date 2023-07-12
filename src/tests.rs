@@ -19,3 +19,6 @@ mod 移除链表元素_203_test;
 
 #[path="./tests/反转链表_206_test.rs"]
 mod 反转链表_206_test;
+
+#[path="./tests/两两交换链表中的节点_24_test.rs"]
+mod 两两交换链表中的节点_24_test;
