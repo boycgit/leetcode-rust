@@ -25,3 +25,6 @@ mod 两两交换链表中的节点_24_test;
 
 #[path="./tests/删除链表的倒数第_n_个结点_19_test.rs"]
 mod 删除链表的倒数第_n_个结点_19_test;
+
+#[path="./tests/有效的字母异位词_242_test.rs"]
+mod 有效的字母异位词_242_test;
