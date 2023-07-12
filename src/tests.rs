@@ -22,3 +22,6 @@ mod 反转链表_206_test;
 
 #[path="./tests/两两交换链表中的节点_24_test.rs"]
 mod 两两交换链表中的节点_24_test;
+
+#[path="./tests/删除链表的倒数第_n_个结点_19_test.rs"]
+mod 删除链表的倒数第_n_个结点_19_test;
