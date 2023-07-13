@@ -43,3 +43,6 @@ mod 四数相加_ii_454_test;
 
 #[path="./tests/赎金信_383_test.rs"]
 mod 赎金信_383_test;
+
+#[path="./tests/三数之和_15_test.rs"]
+mod 三数之和_15_test;
