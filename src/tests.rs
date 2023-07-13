@@ -31,3 +31,6 @@ mod 有效的字母异位词_242_test;
 
 #[path="./tests/两个数组的交集_349_test.rs"]
 mod 两个数组的交集_349_test;
+
+#[path="./tests/快乐数_202_test.rs"]
+mod 快乐数_202_test;
