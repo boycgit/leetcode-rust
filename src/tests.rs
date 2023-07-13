@@ -34,3 +34,6 @@ mod 两个数组的交集_349_test;
 
 #[path="./tests/快乐数_202_test.rs"]
 mod 快乐数_202_test;
+
+#[path="./tests/两数之和_1_test.rs"]
+mod 两数之和_1_test;
