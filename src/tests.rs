@@ -40,3 +40,6 @@ mod 两数之和_1_test;
 
 #[path="./tests/四数相加_ii_454_test.rs"]
 mod 四数相加_ii_454_test;
+
+#[path="./tests/赎金信_383_test.rs"]
+mod 赎金信_383_test;
