@@ -37,3 +37,6 @@ mod 快乐数_202_test;
 
 #[path="./tests/两数之和_1_test.rs"]
 mod 两数之和_1_test;
+
+#[path="./tests/四数相加_ii_454_test.rs"]
+mod 四数相加_ii_454_test;
