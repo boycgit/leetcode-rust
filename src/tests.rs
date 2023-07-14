@@ -49,3 +49,6 @@ mod 三数之和_15_test;
 
 #[path="./tests/四数之和_18_test.rs"]
 mod 四数之和_18_test;
+
+#[path="./tests/反转字符串中的单词_151_test.rs"]
+mod 反转字符串中的单词_151_test;
