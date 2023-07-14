@@ -52,3 +52,6 @@ mod 四数之和_18_test;
 
 #[path="./tests/反转字符串中的单词_151_test.rs"]
 mod 反转字符串中的单词_151_test;
+
+#[path="./tests/找出字符串中第一个匹配项的下标_28_test.rs"]
+mod 找出字符串中第一个匹配项的下标_28_test;
