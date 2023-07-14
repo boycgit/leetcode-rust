@@ -19,7 +19,7 @@ impl Solution {
         for i in  0..nums_len {
 
             // 排序之后如果第一个元素已经大于零，那么无论如何组合都不可能凑成三元组，直接返回结果就可以了
-            if (nums_sorted[i] > 0) { 
+            if nums_sorted[i] > 0 { 
                 return result;
             }
 

@@ -46,3 +46,6 @@ mod 赎金信_383_test;
 
 #[path="./tests/三数之和_15_test.rs"]
 mod 三数之和_15_test;
+
+#[path="./tests/四数之和_18_test.rs"]
+mod 四数之和_18_test;
