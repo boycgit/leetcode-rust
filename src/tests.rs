@@ -58,3 +58,6 @@ mod 找出字符串中第一个匹配项的下标_28_test;
 
 #[path="./tests/二叉树的前序遍历_144_test.rs"]
 mod 二叉树的前序遍历_144_test;
+
+#[path="./tests/二叉树的后序遍历_145_test.rs"]
+mod 二叉树的后序遍历_145_test;
