@@ -73,3 +73,6 @@ mod 对称二叉树_101_test;
 
 #[path="./tests/完全二叉树的节点个数_222_test.rs"]
 mod 完全二叉树的节点个数_222_test;
+
+#[path="./tests/路径总和_112_test.rs"]
+mod 路径总和_112_test;
