@@ -67,3 +67,6 @@ mod 二叉树的层序遍历_102_test;
 
 #[path="./tests/翻转二叉树_226_test.rs"]
 mod 翻转二叉树_226_test;
+
+#[path="./tests/对称二叉树_101_test.rs"]
+mod 对称二叉树_101_test;
