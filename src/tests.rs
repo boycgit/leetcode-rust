@@ -88,3 +88,6 @@ mod 合并二叉树_617_test;
 
 #[path="./tests/验证二叉搜索树_98_test.rs"]
 mod 验证二叉搜索树_98_test;
+
+#[path="./tests/二叉树的最近公共祖先_236_test.rs"]
+mod 二叉树的最近公共祖先_236_test;
