@@ -85,3 +85,6 @@ mod 从前序与中序遍历序列构造二叉树_105_test;
 
 #[path="./tests/合并二叉树_617_test.rs"]
 mod 合并二叉树_617_test;
+
+#[path="./tests/验证二叉搜索树_98_test.rs"]
+mod 验证二叉搜索树_98_test;
