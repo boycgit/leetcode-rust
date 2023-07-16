@@ -76,3 +76,6 @@ mod 完全二叉树的节点个数_222_test;
 
 #[path="./tests/路径总和_112_test.rs"]
 mod 路径总和_112_test;
+
+#[path="./tests/从中序与后序遍历序列构造二叉树_106_test.rs"]
+mod 从中序与后序遍历序列构造二叉树_106_test;
