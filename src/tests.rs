@@ -70,3 +70,6 @@ mod 翻转二叉树_226_test;
 
 #[path="./tests/对称二叉树_101_test.rs"]
 mod 对称二叉树_101_test;
+
+#[path="./tests/完全二叉树的节点个数_222_test.rs"]
+mod 完全二叉树的节点个数_222_test;
