@@ -64,3 +64,6 @@ mod 二叉树的后序遍历_145_test;
 
 #[path="./tests/二叉树的层序遍历_102_test.rs"]
 mod 二叉树的层序遍历_102_test;
+
+#[path="./tests/翻转二叉树_226_test.rs"]
+mod 翻转二叉树_226_test;
