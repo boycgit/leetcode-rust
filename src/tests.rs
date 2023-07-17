@@ -115,3 +115,6 @@ mod 跳跃游戏_55_test;
 
 #[path="./tests/斐波那契数_509_test.rs"]
 mod 斐波那契数_509_test;
+
+#[path="./tests/爬楼梯_70_test.rs"]
+mod 爬楼梯_70_test;
