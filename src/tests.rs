@@ -118,3 +118,6 @@ mod 斐波那契数_509_test;
 
 #[path="./tests/爬楼梯_70_test.rs"]
 mod 爬楼梯_70_test;
+
+#[path="./tests/使用最小花费爬楼梯_746_test.rs"]
+mod 使用最小花费爬楼梯_746_test;
