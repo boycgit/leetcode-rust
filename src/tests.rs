@@ -94,3 +94,6 @@ mod 二叉树的最近公共祖先_236_test;
 
 #[path="./tests/删除二叉搜索树中的节点_450_test.rs"]
 mod 删除二叉搜索树中的节点_450_test;
+
+#[path="./tests/修剪二叉搜索树_669_test.rs"]
+mod 修剪二叉搜索树_669_test;
