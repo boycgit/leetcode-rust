@@ -103,3 +103,6 @@ mod 组合_77_test;
 
 #[path="./tests/组合总和_iii_216_test.rs"]
 mod 组合总和_iii_216_test;
+
+#[path="./tests/电话号码的字母组合_17_test.rs"]
+mod 电话号码的字母组合_17_test;
