@@ -106,3 +106,6 @@ mod 组合总和_iii_216_test;
 
 #[path="./tests/电话号码的字母组合_17_test.rs"]
 mod 电话号码的字母组合_17_test;
+
+#[path="./tests/分割回文串_131_test.rs"]
+mod 分割回文串_131_test;
