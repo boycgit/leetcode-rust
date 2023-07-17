@@ -109,3 +109,6 @@ mod 电话号码的字母组合_17_test;
 
 #[path="./tests/分割回文串_131_test.rs"]
 mod 分割回文串_131_test;
+
+#[path="./tests/跳跃游戏_55_test.rs"]
+mod 跳跃游戏_55_test;
