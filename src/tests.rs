@@ -100,3 +100,6 @@ mod 修剪二叉搜索树_669_test;
 
 #[path="./tests/组合_77_test.rs"]
 mod 组合_77_test;
+
+#[path="./tests/组合总和_iii_216_test.rs"]
+mod 组合总和_iii_216_test;
