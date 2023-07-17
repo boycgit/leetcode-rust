@@ -112,3 +112,6 @@ mod 分割回文串_131_test;
 
 #[path="./tests/跳跃游戏_55_test.rs"]
 mod 跳跃游戏_55_test;
+
+#[path="./tests/斐波那契数_509_test.rs"]
+mod 斐波那契数_509_test;
