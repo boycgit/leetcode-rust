@@ -97,3 +97,6 @@ mod 删除二叉搜索树中的节点_450_test;
 
 #[path="./tests/修剪二叉搜索树_669_test.rs"]
 mod 修剪二叉搜索树_669_test;
+
+#[path="./tests/组合_77_test.rs"]
+mod 组合_77_test;
