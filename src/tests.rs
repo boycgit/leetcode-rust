@@ -121,3 +121,6 @@ mod 爬楼梯_70_test;
 
 #[path="./tests/使用最小花费爬楼梯_746_test.rs"]
 mod 使用最小花费爬楼梯_746_test;
+
+#[path="./tests/不同路径_62_test.rs"]
+mod 不同路径_62_test;
