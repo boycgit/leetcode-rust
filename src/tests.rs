@@ -124,3 +124,6 @@ mod 使用最小花费爬楼梯_746_test;
 
 #[path="./tests/不同路径_62_test.rs"]
 mod 不同路径_62_test;
+
+#[path="./tests/整数拆分_343_test.rs"]
+mod 整数拆分_343_test;
