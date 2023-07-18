@@ -130,3 +130,6 @@ mod 整数拆分_343_test;
 
 #[path="./tests/分割等和子集_416_test.rs"]
 mod 分割等和子集_416_test;
+
+#[path="./tests/打家劫舍_198_test.rs"]
+mod 打家劫舍_198_test;
