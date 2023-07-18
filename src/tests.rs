@@ -127,3 +127,6 @@ mod 不同路径_62_test;
 
 #[path="./tests/整数拆分_343_test.rs"]
 mod 整数拆分_343_test;
+
+#[path="./tests/分割等和子集_416_test.rs"]
+mod 分割等和子集_416_test;
