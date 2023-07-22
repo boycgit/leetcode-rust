@@ -133,3 +133,6 @@ mod 分割等和子集_416_test;
 
 #[path="./tests/打家劫舍_198_test.rs"]
 mod 打家劫舍_198_test;
+
+#[path="./tests/每日温度_739_test.rs"]
+mod 每日温度_739_test;
