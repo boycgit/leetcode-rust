@@ -136,3 +136,6 @@ mod 打家劫舍_198_test;
 
 #[path="./tests/每日温度_739_test.rs"]
 mod 每日温度_739_test;
+
+#[path="./tests/下一个更大元素_i_496_test.rs"]
+mod 下一个更大元素_i_496_test;
