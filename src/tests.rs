@@ -139,3 +139,6 @@ mod 每日温度_739_test;
 
 #[path="./tests/下一个更大元素_i_496_test.rs"]
 mod 下一个更大元素_i_496_test;
+
+#[path="./tests/下一个更大元素_ii_503_test.rs"]
+mod 下一个更大元素_ii_503_test;
