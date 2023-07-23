@@ -142,3 +142,6 @@ mod 下一个更大元素_i_496_test;
 
 #[path="./tests/下一个更大元素_ii_503_test.rs"]
 mod 下一个更大元素_ii_503_test;
+
+#[path="./tests/接雨水_42_test.rs"]
+mod 接雨水_42_test;
