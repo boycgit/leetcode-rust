@@ -151,3 +151,6 @@ mod 柱状图中最大的矩形_84_test;
 
 #[path="./tests/最长递增子序列_300_test.rs"]
 mod 最长递增子序列_300_test;
+
+#[path="./tests/最长连续递增序列_674_test.rs"]
+mod 最长连续递增序列_674_test;
