@@ -148,3 +148,6 @@ mod 接雨水_42_test;
 
 #[path="./tests/柱状图中最大的矩形_84_test.rs"]
 mod 柱状图中最大的矩形_84_test;
+
+#[path="./tests/最长递增子序列_300_test.rs"]
+mod 最长递增子序列_300_test;
