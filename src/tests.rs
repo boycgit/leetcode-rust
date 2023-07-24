@@ -145,3 +145,6 @@ mod 下一个更大元素_ii_503_test;
 
 #[path="./tests/接雨水_42_test.rs"]
 mod 接雨水_42_test;
+
+#[path="./tests/柱状图中最大的矩形_84_test.rs"]
+mod 柱状图中最大的矩形_84_test;
