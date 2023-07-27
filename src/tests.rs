@@ -157,3 +157,6 @@ mod 最长连续递增序列_674_test;
 
 #[path="./tests/最长重复子数组_718_test.rs"]
 mod 最长重复子数组_718_test;
+
+#[path="./tests/最长公共子序列_1143_test.rs"]
+mod 最长公共子序列_1143_test;
