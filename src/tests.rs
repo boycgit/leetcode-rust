@@ -160,3 +160,6 @@ mod 最长重复子数组_718_test;
 
 #[path="./tests/最长公共子序列_1143_test.rs"]
 mod 最长公共子序列_1143_test;
+
+#[path="./tests/最大子数组和_53_test.rs"]
+mod 最大子数组和_53_test;
